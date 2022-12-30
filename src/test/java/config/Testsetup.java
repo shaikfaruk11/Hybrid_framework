@@ -95,7 +95,7 @@ public class Testsetup {
 	         capability.setPlatform(Platform.WIN10);
 			driver= new RemoteWebDriver(new URL("http://192.168.1.40:4444/wd/hub"),capability);
 		}else if(exeuction_env.equals("mobile")){
-			
+			 DesiredCapabilities capability = new DesiredCapabilities();
 		}
 		return driver;
 	}
