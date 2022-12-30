@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-30T04:10:51 PST" name="Suite" finished-at="2022-12-30T04:10:58 PST" duration-ms="6683">
+    <groups>
+    </groups>
+    <test started-at="2022-12-30T04:10:51 PST" name="Test" finished-at="2022-12-30T04:10:58 PST" duration-ms="6683">
+      <class name="testScripts.VerifyLoginfunctionality">
+        <test-method is-config="true" signature="method()[pri:0, instance:testScripts.VerifyLoginfunctionality@537f60bf]" started-at="2022-12-30T04:10:50 PST" name="method" finished-at="2022-12-30T04:10:51 PST" duration-ms="1369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method -->
+        <test-method is-config="true" signature="lunchbrowser()[pri:0, instance:testScripts.VerifyLoginfunctionality@537f60bf]" started-at="2022-12-30T04:10:51 PST" name="lunchbrowser" finished-at="2022-12-30T04:10:54 PST" duration-ms="3041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchbrowser -->
+        <test-method signature="verifylogin()[pri:0, instance:testScripts.VerifyLoginfunctionality@537f60bf]" started-at="2022-12-30T04:10:54 PST" name="verifylogin" finished-at="2022-12-30T04:10:57 PST" duration-ms="2967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testScripts.VerifyLoginfunctionality@537f60bf]" started-at="2022-12-30T04:10:57 PST" name="teardown" finished-at="2022-12-30T04:10:58 PST" duration-ms="621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="method1()[pri:0, instance:testScripts.VerifyLoginfunctionality@537f60bf]" started-at="2022-12-30T04:10:58 PST" name="method1" finished-at="2022-12-30T04:10:59 PST" duration-ms="1009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+      </class> <!-- testScripts.VerifyLoginfunctionality -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
