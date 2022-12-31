@@ -13,7 +13,7 @@ import com.relevantcodes.extentreports.LogStatus;
 
 import config.*;
 
-public class TechnicalComponents extends Testsetup {
+public class Helper extends Testsetup {
 
 	public static void navigattetourl(String url) {
 		try {

@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import com.relevantcodes.extentreports.LogStatus;
 
 import resuablecomponents.BussinessComponents;
-import resuablecomponents.TechnicalComponents;
+import resuablecomponents.Helper;
 
 public class VerifyLoginfunctionality  extends BussinessComponents{
 
@@ -16,7 +16,7 @@ public void verifylogin() {
 	login(getProperties("username"), getProperties("password"));
 	logger.log(LogStatus.PASS, "testcases is passed");
 	}catch(Exception e) {
-		logger.log(LogStatus.PASS,e.getMessage().toString()+" "+logger.addScreenCapture(TechnicalComponents.getscreenshot()));
+		logger.log(LogStatus.PASS,e.getMessage().toString()+" "+logger.addScreenCapture(Helper.getscreenshot()));
 	}
 }
 
