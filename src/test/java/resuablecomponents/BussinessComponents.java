@@ -32,5 +32,10 @@ public class BussinessComponents  extends Helper{
 		logger.log(LogStatus.FAIL,e.getMessage().toString()+" "+logger.addScreenCapture(Helper.getscreenshot()));
 	}
 	}
-	
+	 public void verifyaddtocart() throws Exception {
+		 Loginpage login= new Loginpage(driver);
+		 login.clickaddtocartbutton();
+		 logger.log(LogStatus.PASS," add to cart button clicked successfully");
+		 logger.log(LogStatus.PASS,logger.addScreenCapture(Helper.getscreenshot()));
+}
 }

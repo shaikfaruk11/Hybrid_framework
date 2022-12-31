@@ -20,6 +20,8 @@ public WebElement username;
 public WebElement password;
 @FindBy(xpath="//input[@id='login-button']")
 public WebElement loginbutton;
+@FindBy(xpath="//button[@id='add-to-cart-sauce-labs-backpack']")
+public WebElement addtocart;
 public void enterusername(String text) {
 	Helper.type(username, text);
 }
@@ -29,5 +31,9 @@ public void enterpassword(String text) {
  public void clickonlogin() throws Exception {
 	 Helper.click(loginbutton);
 } 
+ 
+ public void clickaddtocartbutton() throws Exception {
+	 Helper.click(addtocart);
+ }
 
 }
