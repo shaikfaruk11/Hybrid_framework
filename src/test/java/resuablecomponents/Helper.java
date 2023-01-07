@@ -8,6 +8,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 
 import com.relevantcodes.extentreports.LogStatus;
 
@@ -66,5 +67,16 @@ public class Helper extends Testsetup {
 			return path;
 		
 		 }
+		 
+		  public static  String getelementText(WebElement element) {
+			  String text =element.getText();
+			   return text;
+		  }
 	 
+		   public static void  elementisdisplayed(WebElement element) {
+			  
+		boolean flag= element.isDisplayed();
+		Assert.assertEquals(flag,true);
+		   
+}
 }
