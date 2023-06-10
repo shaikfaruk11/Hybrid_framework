@@ -11,6 +11,6 @@ public class VerifyURL extends BussinessComponents{
 	@Test
 	public void openapplication() throws Exception {
 		lunchapplication(getProperties("url"));
-		logger.log(LogStatus.PASS, "testcases is passed");
+		logger.log(LogStatus.PASS, "testcases is verified");
 	}
 }
